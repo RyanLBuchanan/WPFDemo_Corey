@@ -24,5 +24,10 @@ namespace WPFDemo_Corey
         {
             InitializeComponent();
         }
+
+        private void submitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Priviet { firstNameText.Text }");
+        }
     }
 }
